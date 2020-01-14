@@ -22,4 +22,10 @@ for ( let i = 0; i < totalExamScores.length; i++) {
  console.log(total);
  
 
+let total1 = 0
+const averageScore = [98,77,84,91,57,66]
+for ( let i = 0; i < averageScore.length; i ++){
+    total + averageScore[i]
+}
+console.log(total / averageScore.length);
 
