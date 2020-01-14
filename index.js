@@ -29,3 +29,26 @@ for ( let i = 0; i < averageScore.length; i ++){
 }
 console.log(total / averageScore.length);
 
+const students = [
+    {
+        firstname: 'Zeus',
+        grade: 86
+    },
+    {
+        firstname: 'Artemis',
+        grade: 97
+    },
+    {
+        firstname: 'Hera',
+        grade: 73
+    },
+    {
+        firstname: 'Apollo',
+        grade: 90
+    },
+]
+for ( let i = 0; i < students.length; i++){
+    let student = students[i]
+    console.log(`${student.firstname} scored ${student.grade}`);
+    
+}
