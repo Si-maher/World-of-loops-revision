@@ -52,3 +52,11 @@ for ( let i = 0; i < students.length; i++){
     console.log(`${student.firstname} scored ${student.grade}`);
     
 }
+
+const word = 'Javascript'
+let reverseWord = ''
+for ( let i = word.length -1; i >= 0; i-- ){
+reverseWord += word[i]
+    
+}
+console.log(reverseWord);
