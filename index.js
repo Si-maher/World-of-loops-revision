@@ -60,3 +60,15 @@ reverseWord += word[i]
     
 }
 console.log(reverseWord);
+
+
+// Nested loops 
+
+for (let i = 0; i <= 5; i ++){
+    console.log("Outer Loop:", i);
+    for ( let j = 5; j >=0; j -- ){
+        console.log("       Inner Loop:", j);
+    }
+}
+        
+    
