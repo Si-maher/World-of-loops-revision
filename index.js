@@ -154,3 +154,19 @@ for (let i = 0; i < words1.length; i ++) {
     console.log(`${words1[i]}${words2[i]}`);
     
 }
+
+const movieReviews = {
+ Arrivals   :  9.5  ,
+ Alien  :   9 ,
+ Amelie :  8  ,
+'In Bruge'  : 9   ,
+ Amadeus  :  10  ,
+'Kill Bill' : 8    ,
+'Little Miss Sunshine' : 8.5    ,
+Caroline : 7.7   
+}
+
+for (let movie of Object.keys(movieReviews)){
+    console.log(movie, movieReviews[movie]);
+    
+}
