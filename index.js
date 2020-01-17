@@ -194,6 +194,10 @@ const jeopardyWinnings = {
 for ( let prop in jeopardyWinnings) {
     
     console.log(prop, jeopardyWinnings[prop]);
-    
-    
 }
+    
+let total4 = 0
+for (let prop in jeopardyWinnings){
+    total4 += jeopardyWinnings[prop]
+}    
+console.log(`Ken Jennings total ernings: ${total4}`);
