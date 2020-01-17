@@ -99,8 +99,18 @@ while(j <=5){
 const target = Math.floor(Math.random() * 10)
 let guess = Math.floor(Math.random() * 10) 
 while (guess !== target) {
-    console.log(guess)
+    
+    console.log(`Target: ${target} Guess:${guess}`);
     guess = Math.floor(Math.random() * 10)
     
 }
 console.log(`Target: ${target} Guess:${guess}`);
+console.log("Congrats, you win!");
+
+// Of loop
+
+let subreddits = ["soccer", "popheads", "cringe", "books"]
+for ( let sub of subreddits){
+    console.log(sub);
+    
+}
