@@ -178,3 +178,22 @@ for (r of ratings){
 }
 let avg = total3 / ratings.length
 console.log(avg);
+
+
+// for in  
+
+// For in will iterate over the keys, the properties in an object 
+
+const jeopardyWinnings = {
+    regularPlay : 2522700,
+    watsonChallenge : 30000,
+    tournamount : 500000,
+    battleOfDecades : 100000
+}
+
+for ( let prop in jeopardyWinnings) {
+    
+    console.log(prop, jeopardyWinnings[prop]);
+    
+    
+}
