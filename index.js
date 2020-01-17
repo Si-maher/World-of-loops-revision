@@ -119,3 +119,15 @@ for ( let char of "javascript"){
     console.log(char.toUpperCase());
     
 }
+
+const magicSquare = [[2,7,6], [9,5,1], [4,3,8]]
+
+for ( let i = 0; i < magicSquare.length; i ++){
+    let row = magicSquare[i]
+    let sum  = 0
+    for (let j = 0; j < row.length; j ++){
+        sum += row[j]
+    }
+console.log(`${row} summed to ${sum}`);
+
+}
