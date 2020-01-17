@@ -114,3 +114,8 @@ for ( let sub of subreddits){
     console.log(sub);
     
 }
+
+for ( let char of "javascript"){
+    console.log(char.toUpperCase());
+    
+}
